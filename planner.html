@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="planner.html">Planner</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>My Academic Planner</h1>
+        <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+            <input type="text" id="taskInput" placeholder="Enter a new academic task...">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+        <ul id="taskList" style="list-style-type: none; padding: 0;">
+            <!-- Tasks will be added here by JavaScript -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
